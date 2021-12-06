@@ -21,12 +21,8 @@ PRODUCT_RELEASE_NAME := gta4lwifi
 # Inherit from twrp product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from this board
+# Inherit from this device
 $(call inherit-product, device/samsung/gta4lwifi/device.mk)
-
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4lwifi
