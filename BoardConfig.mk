@@ -96,7 +96,8 @@ BOARD_KERNEL_CMDLINE := \
     swiotlb=2048 \
     loop.max_part=7 \
     video=vfb:640x400,bpp=32,memsize=3072000 \
-    androidboot.selinux=permissive
+    androidboot.selinux=permissive \
+    audit=0
 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
