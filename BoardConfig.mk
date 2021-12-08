@@ -140,6 +140,7 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_DEVICE_MODULES += debuggerd
 TARGET_USES_LOGD := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 
 # Encryption
 PLATFORM_VERSION := 20.1.0
